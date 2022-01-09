@@ -17,7 +17,7 @@ public class WebServer implements Runnable {
     private static final String FILE_MAINTENANCE = "maintenance.html";
     private static final String FILE_NOT_FOUND = "notFound404.html";
 
-    static int MIN_PORT_NUMBER = 1023;
+    static int MIN_PORT_NUMBER = 1024;
     static int MAX_PORT_NUMBER = 65535;
 
     static ServerSocket serverSocket;
@@ -58,7 +58,11 @@ public class WebServer implements Runnable {
             serverSocket.close();
         }
 
-        if (portNumber < MIN_PORT_NUMBER && portNumber > MAX_PORT_NUMBER) {
+        if (portNumber < MIN_PORT_NUMBER) {
+            return false;
+        }
+
+        if (portNumber > MAX_PORT_NUMBER) {
             return false;
         }
 
@@ -86,15 +90,15 @@ public class WebServer implements Runnable {
         String extString = name.substring(lastIndexOf);
 
         switch(extString) {
-            case "txt":
-            case "html":
+            case ".txt":
+            case ".html":
                 return "text/html";
-            case "css":
+            case ".css":
                 return "text/css";
-            case "jpg":
+            case ".jpg":
                 return "image/jpeg";
             default:
-                return "";
+                return "text/html";
         }
     }
 

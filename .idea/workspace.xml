@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a47d7861-9114-424a-bcc3-bee0d3f46fff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestSite/a b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/aaa/b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/aaa/bbb/c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/aaa/bbb/yes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/aaa/yes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/maintenance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/notFound404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/not_supported.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/ye s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSite/yes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/WebServerGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/WebServerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProiectVVSv2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProiectVVSv2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProiectVVSv2/com/company/WebServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProiectVVSv2/com/company/WebServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/WebServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,11 +88,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.WebServer" />
       <module name="ProiectVVSv2" />
@@ -114,9 +107,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectVVSv2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebServerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.WebServerTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.WebServerTest" />
       </list>
     </recent_temporary>
   </component>
